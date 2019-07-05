@@ -1,0 +1,71 @@
+﻿  main.cpp
+f:\opus\opus06200939\win32\multi-person-chat\main.cpp(76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+f:\opus\opus06200939\win32\multi-person-chat\main.cpp(113): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 参见“inet_addr”的声明
+f:\opus\opus06200939\win32\multi-person-chat\main.cpp(143): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+f:\opus\opus06200939\win32\multi-person-chat\main.cpp(156): warning C4101: “a”: 未引用的局部变量
+f:\opus\opus06200939\win32\multi-person-chat\main.cpp(152): warning C4101: “test1”: 未引用的局部变量
+f:\opus\opus06200939\win32\multi-person-chat\main.cpp(155): warning C4101: “test4”: 未引用的局部变量
+f:\opus\opus06200939\win32\multi-person-chat\main.cpp(154): warning C4101: “test3”: 未引用的局部变量
+f:\opus\opus06200939\win32\multi-person-chat\main.cpp(153): warning C4101: “test2”: 未引用的局部变量
+  OPUS_API.cpp
+  PacketParsing.cpp
+f:\opus\opus06200939\win32\multi-person-chat\packetparsing.cpp(81): warning C4244: “=”: 从“double”转换到“opus_int16”，可能丢失数据
+f:\opus\opus06200939\win32\multi-person-chat\packetparsing.cpp(173): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  WindowsMicrophone.cpp
+f:\opus\opus06200939\win32\multi-person-chat\windowsmicrophone.cpp(170): warning C4018: “>”: 有符号/无符号不匹配
+  WindowsSocketUDP.cpp
+  WindowsSpeaker.cpp
+f:\opus\opus06200939\win32\multi-person-chat\windowsspeaker.cpp(6): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“WindowsSpeaker *”
+f:\opus\opus06200939\win32\multi-person-chat\windowsspeaker.cpp(77): warning C4244: “=”: 从“DWORD_PTR”转换到“int”，可能丢失数据
+  正在生成代码...
+jrtplib.lib(rtpsession.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpsession.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpipv4address.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpipv4address.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpsessionparams.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpsessionparams.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtppacketbuilder.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtppacketbuilder.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpsources.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpsources.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpsessionsources.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpsessionsources.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpcollisionlist.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpcollisionlist.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtcpscheduler.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtcpscheduler.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtcppacketbuilder.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtcppacketbuilder.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtcpcompoundpacketbuilder.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtcpcompoundpacketbuilder.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpudpv4transmitter.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpudpv4transmitter.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpudpv6transmitter.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpudpv6transmitter.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtptcptransmitter.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtptcptransmitter.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpexternaltransmitter.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpexternaltransmitter.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtprandomrands.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtprandomrands.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtppacket.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtppacket.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpinternalsourcedata.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpinternalsourcedata.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtcpcompoundpacket.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtcpcompoundpacket.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtcpsdesinfo.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtcpsdesinfo.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpabortdescriptors.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpabortdescriptors.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpipv6address.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpipv6address.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtptcpaddress.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtptcpaddress.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+jrtplib.lib(rtpsourcedata.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+jrtplib.lib(rtpsourcedata.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+    正在创建库 F:\OPUS\opus06200939\win32\VS2015\x64\Debug\Multi-person-chat.lib 和对象 F:\OPUS\opus06200939\win32\VS2015\x64\Debug\Multi-person-chat.exp
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+F:\OPUS\opus06200939\win32\VS2015\x64\Debug\Multi-person-chat.exe : fatal error LNK1319: 检测到 46 个不匹配项
